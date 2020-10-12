@@ -11,3 +11,5 @@ It can recognise if a people wear the mask with RaspberryPi camera.
 6. Run $PATH_ROOT/mask-recognize-master/data/Generate_TrainTXT.py
 7. Run $PATH_ROOT/mask-recognize-master/train.py
 
+*** please train the model on your PC instead of on RaspberryPi ***
+
