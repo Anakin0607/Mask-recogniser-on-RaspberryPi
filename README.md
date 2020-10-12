@@ -1,7 +1,7 @@
 # Mask-recogniser-on-RaspberryPi
 It can recognise if a people wear the mask with RaspberryPi camera.
 
-# Train
+## Train
 
 1. Download the dataset from the url or use a spider to get some images of people with or without mask
 2. Put the images to $PATH_ROOT/catch_face/all_mask_img ,put the txts to $PATH_ROOT/all_mask
@@ -13,6 +13,11 @@ It can recognise if a people wear the mask with RaspberryPi camera.
 
 **Please train the model on your PC instead of on RaspberryPi**
 
-# Predict
+## Predict
 How to set the envirment of RaspberryPi please read that https://zhuanlan.zhihu.com/p/264994466
 
+Run $PATH_ROOT/mask-recognize-master/mask_recognize.py
+
+# Face-recogniser
+
+## Train
