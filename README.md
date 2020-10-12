@@ -1,23 +1,24 @@
-# Mask-recogniser-on-RaspberryPi
-It can recognise if a people wear the mask with RaspberryPi camera.
+## Mask-Recognize口罩检测模型在Keras当中的实现
+---
 
-## Train
+### 目录
+1. [所需环境 Environment](#所需环境)
+2. [文件下载 Download](#文件下载)
+3. [训练方法 How2train](#训练方法)
+4. [效果 Performance](#效果)
 
-1. Download the dataset from the url or use a spider to get some images of people with or without mask
-2. Put the images to $PATH_ROOT/catch_face/all_mask_img ,put the txts to $PATH_ROOT/all_mask
-3. The format of the txt label is same as yolo_txt(every image with a txt, and mark every face with class,x,y,w,h ,normalized)
-4. Run $PATH_ROOT/mask-recognize-master/catch_face/Generate.py
-5. Copy the folder train to $PATH_ROOT/mask-recognize-master/data/image
-6. Run $PATH_ROOT/mask-recognize-master/data/Generate_TrainTXT.py
-7. Run $PATH_ROOT/mask-recognize-master/train.py
+### 所需环境
+tensorflow-gpu==1.13.1  
+keras==2.1.5  
 
-**Please train the model on your PC instead of on RaspberryPi**
+### 文件下载
+链接: https://pan.baidu.com/s/1a_cWANSSydb0KTUc9FPnYA 提取码: 9x9i  
+下载好后放在logs里
 
-## Predict
-How to set the envirment of RaspberryPi please read that https://zhuanlan.zhihu.com/p/264994466
+链接: https://pan.baidu.com/s/1TcS4i3ha-kOTirI_yAHNVw 提取码: xmat  
+下载后放在data\image\train下。
+### 训练方法
+在数据集准备好之后可以利用train.py文件训练
 
-Run $PATH_ROOT/mask-recognize-master/mask_recognize.py
-
-# Face-recogniser
-
-## Train
+### 效果
+效果与详解可以看bilibili视频https://www.bilibili.com/video/av89868925
