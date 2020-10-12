@@ -18,6 +18,9 @@ How to set the envirment of RaspberryPi please read that https://zhuanlan.zhihu.
 
 Run $PATH_ROOT/mask-recognize-master/mask_recognize.py
 
+## Reference
+https://github.com/bubbliiiing/mask-recognize
+
 # Face-recogniser
 
 ## Train
