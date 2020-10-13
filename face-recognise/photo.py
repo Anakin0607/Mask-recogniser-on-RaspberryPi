@@ -3,6 +3,8 @@ import os
 
 path = os.getcwd() + '/dataset'
 
+print("Input your name")
+
 sub_path = input()
 data_path = path + '/' + sub_path
 
@@ -10,6 +12,8 @@ if not os.path.exists(data_path):
     os.mkdir(data_path)
 
 cap = cv.VideoCapture(0)
+
+print("Please press space if you're prepared")
 
 flag = 0
 
