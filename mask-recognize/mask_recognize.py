@@ -85,12 +85,12 @@ class face_rec():
 
 if __name__ == "__main__":
 
-    dududu = face_rec()
+    mod = face_rec()
     video_capture = cv2.VideoCapture(0)
 
     while True:
         ret, draw = video_capture.read()
-        dududu.recognize(draw) 
+        mod.recognize(draw) 
         cv2.imshow('Video', draw)
         if cv2.waitKey(20) & 0xFF == ord('q'):
             break
