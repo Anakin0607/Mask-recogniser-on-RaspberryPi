@@ -1,6 +1,15 @@
 # Mask-recogniser-on-RaspberryPi
 It can recognise if a people wear the mask with RaspberryPi camera.
 
+## Environment
+
+```
+Tensorflow==1.13.1
+keras==2.1.5
+opencv-contrib-python==4.4.0.44
+opencv-python==4.4.0.44
+```
+
 ## Train
 
 1. Download the dataset from the url or use a spider to get some images of people with or without mask
@@ -24,3 +33,10 @@ https://github.com/bubbliiiing/mask-recognize
 # Face-recogniser
 
 ## Train
+
+1. Use the $PATH_ROOT/face-recognise/photo.py to take photo to the target face 
+2. Run $PATH_ROOT/face-recognise/train.py and then the model will be saved as model.xml
+
+## Predict
+
+Run $PATH_ROOT/face-recognise/Predict,
